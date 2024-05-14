@@ -6,47 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VARA</title>
     <link rel="stylesheet" href="/styles/style.css">
-    <link rel="icon" href="/assets/varaicon1.png">
+    <link rel="icon" href="/assets/icon1.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+
 </head>
 
 <body>
     <header>
         <!--barra de navegación con logo y menú funcional-->
-        <img src="" alt="">
+        <img src="/assets/varalogo.png" alt="imagen de logo" title="logo VARA">
         <nav>
             <ul>
-                <li><a href="/#banner"></a>VARA</li>
-                <li><a href="/#categories"></a>Categorías</li>
-                <li><a href="/#products"></a>Productos</li>
-                <li><a href="/contact"></a>Contacto</li>
+                <li><a href="/#banner">VARA</a></li>
+                <li><a href="/#categories">Categorías</a></li>
+                <li><a href="/#products">Productos</a></li>
+                <li><a href="/#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!--Sección_1_banner-->
         <section id="banner">
-            <h1>VARA - clothes</h1>
+            <h1>VARA</h1>
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            </div>
             <p>Con una selección vanguardista de prendas de alta calidad, nuestra exclusiva marca ofrece moda
                 contemporánea
                 para
                 hombres exigentes. Combinamos estilo, comodidad y versatilidad para satisfacer las necesidades del
                 hombre
                 moderno.
-                Descubre tu estilo único con nuestra colección exclusiva.<strong>Bienvenido a la moda del siglo XXI,
-                    bienvenido a VARA Clothes.</strong>
+                Descubre tu estilo único con nuestra colección exclusiva.
+            <p>
+                <strong>Bienvenido a la moda del siglo XXI,
+                    bienvenido a VARA Clothes.
+                </strong>
+            </p>
             </p>
         </section>
 
         <!--Sección_2_Categories-->
         <section id="categories">
+
             <h2>Categorías</h2>
             <div class="container-grid-categories">
-                <h3>Remeras</h3>
-                <div class="container-grid-categories">
-                    <h3>Pantalones</h3>
-                    <div class="container-grid-categories">
-                        <h3>Calzado</h3>
+                <div class="card">
+                    <div class="container-img-categories">
+                        <img src="" alt="">
                     </div>
+                    <h3>Remeras</h3>
+                    <button>Ver colección</button>
+                </div>
+            </div>
+
+            <div class="container-grid-categories">
+                <div class="card">
+                    <div class="container-img-categories">
+                        <img src="" alt="">
+                    </div>
+                    <h3>Pantalones</h3>
+                    <button>Ver colección</button>
+                </div>
+            </div>
+
+            <div class="container-grid-categories">
+                <div class="card">
+                    <div class="container-img-categories">
+                        <img src="" alt="">
+                    </div>
+                    <h3>Calzado</h3>
+                    <button>Ver colección</button>
+                </div>
+            </div>
         </section>
 
         <!--Sección_3_Products-container-cards-->
@@ -115,7 +154,7 @@
                     <input type="email" placeholder="ingrese su correo electrónico" required />
                 </div>
                 <div>
-                    <label for="Message">Mensaje:</label>
+                    <label for="message">Mensaje:</label>
                     <textarea id="message" placeholder="Ingrese su mensaje"></textarea>
                 </div>
                 <button>Enviar</button>
