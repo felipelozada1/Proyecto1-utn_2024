@@ -40,9 +40,15 @@ header img {
     width: 6%;
 }
 
+/*section categories */
 section {
+    margin: 100vh;
     padding: 30px;
     min-height: 100vh;
+}
+
+.img {
+    max-width: 100%;
 }
 
 #banner {
@@ -80,28 +86,13 @@ section {
 
 
 
-.categories-cards {
+.categories {
     max-width: 100%;
     background-color: aqua;
     margin: auto;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr) 100px;
-    text-align: center;
-}
-
-.card img {
-    width: 100%;
-
-}
-
-.products-container {
-    background-color: aqua;
-    max-width: 100%;
-    margin: auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr) 100px;
     text-align: center;
 }
 
